@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="description" content="Nike Product">
+	<meta name="author" content="Roma Lou">
+	<title>Nike product card</title>
+
+	<link rel="icon" href="images/favicon.png">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/reset.css">
+	<link rel="stylesheet" href="css/styles.css">
+
+	<!--[if lt IE 9]>
+	<script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+	<![endif]-->
+</head>
+<body>
+	<div class="item">
+		<div class="logo"><img src="images/logo.png" alt="logo" class="logo__img"></div>
+		<div class="slider">
+			<div class="slider__wrap-image">
+				<img src="images/model.png" alt="krosovok" class="slider__image">
+			</div>
+			<ul class="slider__thumbs">
+				<li class="slider__thumbs-item slider__thumbs-item--active slider__thumbs-item--black"></li>
+				<li class="slider__thumbs-item slider__thumbs-item--white"></li>
+				<li class="slider__thumbs-item slider__thumbs-item--red"></li>
+				<li class="slider__thumbs-item slider__thumbs-item--blue"></li>
+			</ul>			
+		</div>
+		<div class="item-content">
+			<h2 class="item-content__title">Nike SB Stefan  Janoski Max</h2>
+			<div class="item-content__wrap-description">
+				<p class="item-content__model">Unisex Skateboarding Shoe</p>
+				<ul class="rating">
+					<li class="rating__item rating__item--full"></li>
+					<li class="rating__item rating__item--full"></li>
+					<li class="rating__item rating__item--full"></li>
+					<li class="rating__item"></li>
+					<li class="rating__item"></li>
+				</ul>
+				<form action="#" class="item-form" id="form">
+					<select class="item-form__select">
+						<option disabled selected>Size</option>
+						<option value="39">39</option>
+						<option value="40">40</option>
+						<option value="41">41</option>
+					</select>
+					<select class="item-form__select">
+						<option disabled selected>Qty</option>
+						<option value="1">1</option>
+						<option value="2">2</option>
+						<option value="3">3</option>
+					</select>
+					<button type="submit" class="item-form__button">Add to cart</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+<!-- LiveReload Script -->
+<script>document.write('<script src="http://' + (location.host || 'localhost').split(':')[0] + ':35729/livereload.js?snipver=1"></' + 'script>')</script>
+</body>
+</html>
